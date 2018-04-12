@@ -1,14 +1,12 @@
 {
   "name": "@splash-cli/print-block",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "build/index.js",
   "license": "MIT",
   "description": "overflow",
   "scripts": {
     "test": "ava",
     "build": "babel src -d build",
-    "postinstall": "npm run build",
-    "prepublish": "rm -rf build",
     "pretest": "npm run build"
   },
   "repository": {
