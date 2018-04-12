@@ -7,7 +7,8 @@
   "scripts": {
     "test": "ava",
     "build": "babel src -d build",
-    "pretest": "npm run build"
+    "pretest": "npm run build",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
