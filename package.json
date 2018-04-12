@@ -1,6 +1,6 @@
 {
   "name": "@splash-cli/print-block",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "build/index.js",
   "license": "MIT",
   "description": "overflow",
@@ -24,5 +24,10 @@
   "bugs": {
     "url": "https://github.com/splash-cli/print-block/issues"
   },
-  "homepage": "https://github.com/splash-cli/print-block#readme"
+  "homepage": "https://github.com/splash-cli/print-block#readme",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
 }
